@@ -50,7 +50,7 @@ and failure awareness.
 
 The main analysis can be found here:
 
-notebooks/03_conformal_prediction_reliability_report.ipynb 
+notebooks/donor_conformal_reliability_report.ipynb 
 
 ---
 
