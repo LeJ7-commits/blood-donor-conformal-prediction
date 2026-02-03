@@ -1,6 +1,6 @@
 # Uncertainty-Aware Classification with Conformal Prediction
 
-This repository demonstrates an **uncertainty-aware machine learning workflow** using
+This repository demonstrates an **uncertainty-aware ML workflow** using
 **Conformal Prediction** to produce reliable, coverage-guaranteed outputs.
 
 The project is motivated by **operational decision-making under ambiguity**, where inputs
@@ -12,32 +12,20 @@ is as important as raw accuracy.
 ## Project Focus
 
 The core focus is on:
-- Producing **prediction sets** with formal coverage guarantees
-- Evaluating **reliability vs informativeness** trade-offs
-- Measuring **subgroup robustness** using Mondrian (group-conditional) conformal prediction
+- Producing prediction sets with formal coverage guarantees
+- Evaluating reliability vs informativeness trade-offs
+- Measuring subgroup robustness using Mondrian (group-conditional) conformal prediction
 
-Rather than optimizing for a single metric, the emphasis is on **calibration, stability,
-and failure awareness**.
+Rather than optimizing for a single metric, the emphasis is on calibration, stability,
+and failure awareness.
 
 ---
 
-## Repository Structure
-.
-├── notebooks/
-│ └── 03_conformal_prediction_reliability_report.ipynb
-├── src/
-│ ├── conformal.py
-│ └── metrics.py
-├── slides/
-│ └── reliability_conformal_prediction_operational_decisioning.pptx
-├── data/
-├── requirements.txt
-└── README.md
-
-- `notebooks/`: End-to-end analysis and experiments
-- `src/`: Reusable conformal prediction and evaluation utilities
-- `slides/`: Presentation summarizing methodology and findings
-- `data/`: Input dataset
+## Repository Overview
+- `notebooks/`: end-to-end analysis and experiments
+- `src/`: reusable conformal prediction and evaluation utilities
+- `slides/`: presentation summarizing methodology and findings
+- `data/`: input dataset
 
 ## Methods
 
@@ -62,13 +50,7 @@ and failure awareness**.
 
 The main analysis can be found here:
 
-notebooks/03_conformal_prediction_reliability_report.ipynb
-
-This notebook walks through:
-1. Data preparation and train/calibration/test splits  
-2. Baseline model training  
-3. Construction of conformal prediction sets  
-4. Reliability and subgroup coverage evaluation  
+notebooks/03_conformal_prediction_reliability_report.ipynb 
 
 ---
 
