@@ -46,14 +46,6 @@ and failure awareness.
 
 ---
 
-## Key Notebook
-
-The main analysis can be found here:
-
-notebooks/donor_conformal_reliability_report.ipynb 
-
----
-
 ## How to Run
 
 ```bash
